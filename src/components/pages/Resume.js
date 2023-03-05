@@ -3,13 +3,25 @@ import '../styles/Resume.css';
 
 export default function Resume() {
   return (
-    <div className="container">
+    <div className="container mt-5">
       <div className="row justified-content-center">
         <div className="col-10">
-          <a href="../assets/brad_coleman_resume.pdf" download>
-            Download Brad's Resume
+          <div className="row">
+            <div className="col-8">
+              <h2>Brad Coleman</h2>
+            </div>
+            <div className="col-4 ">
+            <a href="../assets/brad_coleman_resume.pdf" download className="badge badge-primary">
+            Download Resume
           </a>
-          <h2>Brad Coleman</h2>
+            </div>
+
+
+          </div>
+          {/* <a href="../assets/brad_coleman_resume.pdf" download> */}
+            {/* Download Brad's Resume */}
+          {/* </a> */}
+          {/* <h2>Brad Coleman</h2> */}
           <p>925-786-4017</p>
           <p>bradcoleman60@gmail.com</p>
           <h3>Skills:</h3>

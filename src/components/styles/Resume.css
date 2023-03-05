@@ -3,16 +3,30 @@
     font-size: 5rem;
 }
 
+.container h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+}
+
+.container h5 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+
 .container a {
     
-    font-size: 75px;
+    font-size: 30px;
     background-color: red;
     border: solid black;
-    border-radius: 5px;
+    border-radius: 20px;
     color: blue;
+    height: 75%;
+    justify-content: center
 };
 
 .container {
-    margin-top: 5px;
+    margin-top: 50px;
     /* font-size: 3rem; */
 }
