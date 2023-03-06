@@ -44,11 +44,11 @@ export default function Projects() {
 
   return (
     <div className="container border border-primary">
-      <div className="row px-5">
+      <div className="row">
         {projects.map((item, index) => (
           <div
             key={index}
-            className="col-md-4 col-lg-4 col-xl-4 px-5 border border-primary position-relative"
+            className="col-md-4 col-lg-4 col-xl-4 m-4 border border-primary position-relative"
             style={{
               backgroundImage: item.backgroundImage,
               height: "400px",

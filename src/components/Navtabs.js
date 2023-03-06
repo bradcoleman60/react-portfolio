@@ -25,6 +25,16 @@ function NavTabs({ currentPage, handlePageChange }) {
     
     <nav style={styles.navbarStyle} className="navbar fixed-top">
     <ul className="nav">
+
+    <li className='nav-item' style={{ 
+      display: "flex",
+      justifyContent: 'flex-start'}}>
+        <a style={styles.linkStyle} href="#Home">
+          Brad Coleman
+        </a>
+
+      </li>
+
       <li className="nav-item">
         <a style={styles.linkStyle}
           href="#home"
@@ -80,6 +90,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Resume
         </a>
       </li>
+      
     </ul>
     
     </nav>
