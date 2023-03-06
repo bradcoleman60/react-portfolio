@@ -8,6 +8,11 @@
 
 /* Header is a flex boxt that includes two sub containers named "Header-container_1"
 and "Heaeder-container_2" */
+
+.container {
+    margin-top: 220px;
+}
+
 header {
     width: 98%;
     height: 160px;
@@ -193,7 +198,7 @@ That is, the Large Project */
 This also applies to the Nav-Bar. */
 
 
-  @media screen and (max-width: 768px) {
+  /* @media screen and (max-width: 768px) {
     .main-container {
         flex-direction: column;
     }
@@ -209,4 +214,4 @@ This also applies to the Nav-Bar. */
         flex-direction: column;
     }
    
-  }
+  } */

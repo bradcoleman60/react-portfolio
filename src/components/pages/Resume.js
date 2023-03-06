@@ -3,7 +3,7 @@ import '../styles/Resume.css';
 
 export default function Resume() {
   return (
-    <div className="container mt-5">
+    <div className="container">
       <div className="row justified-content-center">
         <div className="col-10">
           <div className="row">
@@ -11,7 +11,7 @@ export default function Resume() {
               <h2>Brad Coleman</h2>
             </div>
             <div className="col-4 ">
-            <a href="../assets/brad_coleman_resume.pdf" download className="badge badge-primary">
+            <a href="../assets/brad_coleman_resume.pdf" download className="badge badge-primary" id="resume">
             Download Resume
           </a>
             </div>

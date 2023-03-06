@@ -23,7 +23,7 @@ const styles = {
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     
-    <nav style={styles.navbarStyle} className="navbar">
+    <nav style={styles.navbarStyle} className="navbar fixed-top">
     <ul className="nav">
       <li className="nav-item">
         <a style={styles.linkStyle}

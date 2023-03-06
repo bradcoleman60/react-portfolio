@@ -64,6 +64,36 @@ That is, the Large Project */
     gap: 20px;
     border-radius: 20px;
 }
+
+#card_1 {
+    
+    background-image: url(../../../public/images/nba_project.jpg);
+    background-size:cover;
+    padding: 30px;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    border: 5px solid black;
+    gap: 20px;
+    /* border-radius: 20px; */
+}
+
+#card_2 {
+    
+    background-image: url(../../../public/images/digital-marketing-meeting.jpg);
+    background-size:cover;
+    padding: 30px;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    border: 5px solid black;
+    gap: 20px;
+    /* border-radius: 20px; */
+}
+
+
+
+
 .card_1 h1 {
     font-size: 20px;
     text-align: center;
