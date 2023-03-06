@@ -1,3 +1,30 @@
+
+
+html, body {
+    height: 80%;
+  }
+  
+    
+  main {
+    flex: 1;
+  }
+  
+  footer {
+    margin-top: auto;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* * {
 
     background-color: #6A7369;
@@ -9,7 +36,7 @@
 /* Header is a flex boxt that includes two sub containers named "Header-container_1"
 and "Heaeder-container_2" */
 
-.container {
+/* .container {
     margin-top: 220px;
 }
 
@@ -70,20 +97,20 @@ header h1{
 /* This starts the main section of the website.  There is one main container and 
 inside this main container are two smaller containers. */
 
-.main-container {
+/* .main-container {
     
     display: flex;
     gap: 10px;
     padding: 10px;
     flex-direction: row;
     justify-content:space-around;
-}
+} */
 
 
 /* This CSS removes the automatically applied underline to all linked (href) references */
-a:link {
+/* a:link {
     text-decoration: none;
-}
+} */
 
 /* This CSS adds an underline to the text that is included in a link (href) */
 a:hover{
@@ -92,7 +119,7 @@ a:hover{
 
 /* Contain_1 Holds the large container that has one show-cased project - 
 That is, the Large Project */
-.container_1 {
+/* .container_1 {
     display: flex;
     flex-flow: column;
     flex-wrap: wrap;
@@ -104,9 +131,9 @@ That is, the Large Project */
     border: 2px dashed yellow;
     padding:20px
     
-}
+} */
 
-.card_1 img {
+/* .card_1 img {
     width: 50%;
     height: auto;
 }
@@ -137,16 +164,16 @@ That is, the Large Project */
     background: rgba(0, 0, 0, 0.3);
     margin-top: 250px;
     
-}
-
+} */
+/* 
 .card_1 :hover {
     background: rgba(0, 0, 0, 0.8);
 
-}
+} */
 
 /* Container 2 houses the small projects. */
 
-.container_2  {
+/* .container_2  {
     display: flex;
     flex-flow: row;
     flex-wrap:wrap;
@@ -162,10 +189,10 @@ That is, the Large Project */
     margin: 0%;
     background-color: darkgreen;
    
-}
+} */
 
 /* There are 4 sub cards within container_2 with the following CSS */
-.card_2, 
+/* .card_2, 
 .card_3,
 .card_4,
 .card_5 {
@@ -192,7 +219,7 @@ That is, the Large Project */
     position:relative;
     margin-top: -50px;
     background-color: blue;
-}
+} */ 
 
 /* Media Query to change the Flex Direction from Row to Column on different screen sizes.  
 This also applies to the Nav-Bar. */

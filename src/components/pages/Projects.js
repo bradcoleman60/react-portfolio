@@ -44,7 +44,7 @@ export default function Projects() {
 
   return (
     <div className="container border border-primary">
-      <div className="row">
+      <div className="row px-5">
         {projects.map((item, index) => (
           <div
             key={index}
