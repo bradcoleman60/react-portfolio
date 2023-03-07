@@ -7,7 +7,7 @@ import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState("Home");
+  const [currentPage, setCurrentPage] = useState("About");
 
   //Check which value of the 'currentPage is and render correct page
   const renderPage = () => {

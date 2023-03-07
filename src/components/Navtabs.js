@@ -1,20 +1,26 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-//Apply css styling in line - note the user of camel case for the css properties as required by React
+//Apply css styling in line - note the use of camel case for the css properties as required by React
 const styles = {
   navbarStyle: {
     background: 'blue',
     justifyContent: 'flex-end',
     display: 'flex',
-    fontSize: '40px',
+    fontSize: '30px',
     
   },
   linkStyle: {
     textDecoration: 'none',
     color: "red",
     background: 'blue'
-
+  },
+  navbarNameStyle: {
+    background: 'blue',
+    // justifyContent: 'flex-start',
+    display: 'flex',
+    fontSize: '30px',
+    color: 'red'
   }
 };
 
@@ -24,16 +30,24 @@ function NavTabs({ currentPage, handlePageChange }) {
   return (
     
     <nav style={styles.navbarStyle} className="navbar fixed-top">
-    <ul className="nav">
+      <div className='container-fluid'style={styles.navbarNameStyle} >
+    <div className='navbar-brand' style={styles.navbarNameStyle}>Brad Coleman
+    </div>
+    
 
-    <li className='nav-item' style={{ 
+    {/* <div className='nav-item' style={{ 
       display: "flex",
       justifyContent: 'flex-start'}}>
         <a style={styles.linkStyle} href="#Home">
           Brad Coleman
         </a>
 
-      </li>
+      </div> */}
+    
+    
+    <ul className="nav">
+
+    
 
       <li className="nav-item">
         <a style={styles.linkStyle}
@@ -92,9 +106,9 @@ function NavTabs({ currentPage, handlePageChange }) {
       </li>
       
     </ul>
-    
+    </div>
     </nav>
-  
+   
     );
 }
 

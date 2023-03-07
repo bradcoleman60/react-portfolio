@@ -1,0 +1,15 @@
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 12px;
+  color: black;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #fff; /* change the background color to white */
+  resize: vertical;
+}
+
+.form-textarea {
+  height: 200px; /* increase the height of the textarea */
+}

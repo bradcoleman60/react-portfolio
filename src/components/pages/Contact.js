@@ -1,5 +1,7 @@
 import React, {useState} from 'react';
 // import '../style.css'
+
+import "../styles/contactForm.css";
 import { validateEmail } from '../utils/helpers';
 
  function Form() {
@@ -45,31 +47,46 @@ import { validateEmail } from '../utils/helpers';
 
   
   return (
-    <div>
+    <div className="container" style={{ maxWidth: "800px" }}>
+      <div className='row'>
       <form>
+        <div className='col-12 col-md-10 mb-3 p-3 bg-dark'>
+        Name:
         <input
+        className='form-input'
         value={name}
         name="name"
         onChange={handleInputChange}
         type="text"
         placeholder="name"
+        
         />
+        </div>
+        <div className='col-12 col-md-10 mb-3 p-3 bg-dark'>
+        Email:
         <input 
+        className='form-input'
         value={email}
         name="email"
         onChange={handleInputChange}
         type="email"
         placeholder="email"
         />
-        
-        <input
+</div>
+    <div className='col-12 col-md-10 mb-3 p-3 bg-dark'>
+        Message:
+        <textarea
+        className='form-textarea'
         value={message}
         name="message"
         onChange={handleInputChange}
-        type="text"
+        
         placeholder="message"
+        rows={5}
+        cols="50"
         />
-        <button type="button" onClick={handleFormSubmit}>Submit</button>
+        </div>
+        <button type="button" class="btn btn-danger btn-lg" onClick={handleFormSubmit}>Submit</button>
       </form>
       {errorMessage && (
         <div>
@@ -77,6 +94,7 @@ import { validateEmail } from '../utils/helpers';
           </div>
       )}
 
+    </div>
     </div>
   );
 }

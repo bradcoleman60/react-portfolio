@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/Portfolio.css";
-import "../styles/Overall.css";
+
 
 export default function Projects() {
   const projects = [
@@ -43,12 +43,12 @@ export default function Projects() {
   }
 
   return (
-    <div className="container border border-primary">
+    <div className="container">
       <div className="row">
         {projects.map((item, index) => (
           <div
             key={index}
-            className="col-md-4 col-lg-4 col-xl-4 m-4 border border-primary position-relative"
+            className="col-md-4 col-lg-4 col-xl-4 m-4 position-relative"
             style={{
               backgroundImage: item.backgroundImage,
               height: "400px",

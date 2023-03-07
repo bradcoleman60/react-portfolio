@@ -1,37 +1,55 @@
 
 
 html, body {
-    height: 80%;
+    height: 100%;
+    background-color: #6A7369;
   }
   
     
   main {
     flex: 1;
+    background-color: #6A7369;
   }
   
-  footer {
+  /* footer {
     margin-top: auto;
-  }
+  } */
+
+  a:hover{
+    text-decoration: underline;
+}
+
+.container {
+    margin-top: 220px;
+    padding-top: 50px;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-/* * {
+.container {
 
     background-color: #6A7369;
     color:white;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
     
-} */
+}
+
+* {
+
+    background-color: #6A7369;
+    color:white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    
+}
+
+h5{
+    text-indent: 1em;
+}
+
+#github img:hover {
+    opacity: 1.0;
+}
+
+
 
 /* Header is a flex boxt that includes two sub containers named "Header-container_1"
 and "Heaeder-container_2" */
@@ -113,9 +131,6 @@ inside this main container are two smaller containers. */
 } */
 
 /* This CSS adds an underline to the text that is included in a link (href) */
-a:hover{
-    text-decoration: underline;
-}
 
 /* Contain_1 Holds the large container that has one show-cased project - 
 That is, the Large Project */
