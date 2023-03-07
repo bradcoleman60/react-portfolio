@@ -7,40 +7,13 @@
 4. [About the Author](#about-the-author)
 5. [License](#license)
 
-Deployed Site: [https://afternoon-badlands-25422.herokuapp.com/](https://afternoon-badlands-25422.herokuapp.com/)
+Deployed Site: [https://bradcoleman60.github.io/react-portfolio/](https://bradcoleman60.github.io/react-portfolio/)
 
 
 
 # **Description**
 
 The goal of this project was to create a website to share my projects with potential employers and fellow developers and collaborate on future projects.  This site was created using React and was deployed on GitHub Pages. 
-
-I used handlebars as my rendering agent and took advantage of partials to render blog titles and details.   
-
-Below is a screen shot of the landing home page before log in. 
-
-![screenshot](./public/assets/images/screen_shot_1.jpg)
-
-Below is a screen shot of the home page after log in. Note the "login / register button does not appear, but the logout button does. 
-
-![screenshot](./public/assets/images/screen_shot_2.jpg)
-
-Below is a screen shot of the logged in user's dashboard that allows navigation to and "edit/delete" page for the selected blog post. 
-
-![screenshot](./public/assets/images/screen_shot_3.jpg)
-
-Below is a screen shot of the edit/ delete page.  This retrieves the title and the text of the blog entry and inserts such content into a editable text field.  The user can then submit the edits, delete the blog or cancel and return to the dashboard. 
-
-![screenshot](./public/assets/images/screen_shot_4.jpg)
-
-Below is a screen shot of the modal used to enter a new blog entry with a title and text content.  
-
-![screenshot](./public/assets/images/screen_shot_5.jpg)
-
-Below is a screen shot of the detailed blog rendering that shows the list of comments.  A user can also add a comment to the blog.   
-
-![screenshot](./public/assets/images/screen_shot_6.jpg)
-
 
 # **Highlighted Code Example**
 
