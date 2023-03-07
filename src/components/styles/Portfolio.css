@@ -7,6 +7,11 @@
 }
 
 
+#github img:hover {
+    opacity: 1.0;
+}
+
+
 
 /* This starts the main section of the website.  There is one main container and 
 inside this main container are two smaller containers. */

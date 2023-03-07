@@ -64,31 +64,6 @@ The following is the.......
 # **Testing** 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 To test to ensure the code rendered the desired output I iterated a series of tests to ensure that all acceptance criteria were met and documented completion below:
 
 | User Acceptance Criteria | Test Result | 

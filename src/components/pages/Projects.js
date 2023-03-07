@@ -54,23 +54,30 @@ export default function Projects() {
               height: "400px",
               width: "400px",
               backgroundSize: "cover",
-              padding: "30px"
+              padding: "30px",
+            
             }}
             onClick={() => handleClick(item.url)}
           >
+
             <div
-              className="bg-light p-2 position-absolute"
+              className="col p-2 "
+              id="github"
               style={{
                 position: "absolute",
                 bottom: 0,
                 left: 0,
                 width: "100%",
                 textAlign: "center",
+                cursor: "pointer",
+                opacity: ".5",
+                
               }}
             >
-              <a href={item.github} target="_blank" rel="noopener noreferrer">
-                GitHub Repo
-              </a>
+              
+          
+                <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" onClick={() => window.open(item.github)} max-width="50%" title="GitHub Repo" alt="github icon"/>
+              
             </div>
         </div>
         ))}
