@@ -17,14 +17,13 @@ const styles = {
   },
   navbarNameStyle: {
     background: 'blue',
-    // justifyContent: 'flex-start',
     display: 'flex',
     fontSize: '30px',
     color: 'red'
   }
 };
 
-// Here we are using object destructuring assignment to pluck off our variables from the props object
+// Here we are using object destructuring assignment to obtain variables from the props object
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
@@ -33,33 +32,10 @@ function NavTabs({ currentPage, handlePageChange }) {
       <div className='container-fluid'style={styles.navbarNameStyle} >
     <div className='navbar-brand' style={styles.navbarNameStyle}>Brad Coleman
     </div>
-    
-
-    {/* <div className='nav-item' style={{ 
-      display: "flex",
-      justifyContent: 'flex-start'}}>
-        <a style={styles.linkStyle} href="#Home">
-          Brad Coleman
-        </a>
-
-      </div> */}
-    
+       
     
     <ul className="nav">
-
-    
-
-      <li className="nav-item">
-        <a style={styles.linkStyle}
-          href="#home"
-          onClick={() => handlePageChange('Home')}
-          // This is a conditional (ternary) operator that checks to see if the current page is "Home"
-          // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
-          className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
-        >
-          Home |
-        </a>
-      </li>
+      
       <li className="nav-item">
         <a
         style={styles.linkStyle}

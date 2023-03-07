@@ -42,6 +42,9 @@ export default function Projects() {
     window.open(url, "_blank");
   }
 
+  /*This return statement iterates through the Projects array (above) and inserts 
+  the url, github link and the background image for each project and then 
+  displays in a separate DIV */
   return (
     <div className="container">
       <div className="row">
@@ -74,8 +77,7 @@ export default function Projects() {
                 
               }}
             >
-              
-          
+                   
                 <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" onClick={() => window.open(item.github)} max-width="50%" title="GitHub Repo" alt="github icon"/>
               
             </div>
