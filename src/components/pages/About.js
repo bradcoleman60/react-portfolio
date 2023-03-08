@@ -7,7 +7,7 @@ export default function About() {
     <div className="container">
       <div className='row'>
         <div className='col-4'>
-          <img src='../images/bc.JPG' alt='Brad Coleman' width="120%"></img>
+          <img src={process.env.PUBLIC_URL + '/images/bc.JPG'} alt='Brad Coleman' width="120%"></img>
           </div>
       <div className='col-8'>
       <h1>About Me</h1>

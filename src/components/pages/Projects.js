@@ -1,6 +1,8 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/Portfolio.css";
+import nbapic from '../../images/nba_project.jpg'
+
 
 
 export default function Projects() {
@@ -8,7 +10,7 @@ export default function Projects() {
     {
       url: "https://bradcoleman60.github.io/GitYourGameOn/",
       github: "https://github.com/bradcoleman60/GitYourGameOn",
-      backgroundImage: "url('/images/nba_project.jpg')",
+      backgroundImage: `url(${nbapic})`,
     },
     {
       url: "https://bradcoleman60.github.io/marketing-refactor/",
@@ -34,7 +36,8 @@ export default function Projects() {
     {
       url: "https://bradcoleman60.github.io/javascript-quiz/",
       github: "https://github.com/bradcoleman60/javascript-quiz",
-      backgroundImage: "url('/images/javascript_quiz.jpg')",
+      // backgroundImage: "url('/images/javascript_quiz.jpg')",
+      backgroundImage: `{process.env.PUBLIC_URL + '/images/javascript_quiz.jpg'}`
     },
   ];
 
