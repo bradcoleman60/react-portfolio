@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.f81a276e.css",
-    "main.js": "/react-portfolio/static/js/main.8472c9fe.js",
+    "main.js": "/react-portfolio/static/js/main.1b3d6a67.js",
+    "static/media/nba_project.jpg": "/react-portfolio/static/media/nba_project.70d8ec392d6f33f496bd.jpg",
     "index.html": "/react-portfolio/index.html",
     "main.f81a276e.css.map": "/react-portfolio/static/css/main.f81a276e.css.map",
-    "main.8472c9fe.js.map": "/react-portfolio/static/js/main.8472c9fe.js.map"
+    "main.1b3d6a67.js.map": "/react-portfolio/static/js/main.1b3d6a67.js.map"
   },
   "entrypoints": [
     "static/css/main.f81a276e.css",
-    "static/js/main.8472c9fe.js"
+    "static/js/main.1b3d6a67.js"
   ]
 }
