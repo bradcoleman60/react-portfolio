@@ -1,14 +1,22 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.f81a276e.css",
-    "main.js": "/react-portfolio/static/js/main.1b3d6a67.js",
+    "main.css": "/react-portfolio/static/css/main.15f3ff7f.css",
+    "main.js": "/react-portfolio/static/js/main.9570c98a.js",
+    "static/media/digital-marketing-meeting.jpg": "/react-portfolio/static/media/digital-marketing-meeting.c672fcf0b6bd0c33ff16.jpg",
+    "static/media/brad_coleman_resume.pdf": "/react-portfolio/static/media/brad_coleman_resume.3557afb10cece29164fd.pdf",
+    "static/media/bc.JPG": "/react-portfolio/static/media/bc.c5b65344919efa28dfb8.JPG",
     "static/media/nba_project.jpg": "/react-portfolio/static/media/nba_project.70d8ec392d6f33f496bd.jpg",
+    "static/media/weather.jpg": "/react-portfolio/static/media/weather.217f708c8648489fcb6b.jpg",
+    "static/media/tech_blog.jpg": "/react-portfolio/static/media/tech_blog.319febc3f425c00cea6e.jpg",
+    "static/media/javascript_quiz.jpg": "/react-portfolio/static/media/javascript_quiz.ec5a89aacd2c8a8e9feb.jpg",
+    "static/media/panda.jpg": "/react-portfolio/static/media/panda.31520aa340076945f898.jpg",
+    "static/media/resume.jpg": "/react-portfolio/static/media/resume.dcef558ecbf5df8564d6.jpg",
     "index.html": "/react-portfolio/index.html",
-    "main.f81a276e.css.map": "/react-portfolio/static/css/main.f81a276e.css.map",
-    "main.1b3d6a67.js.map": "/react-portfolio/static/js/main.1b3d6a67.js.map"
+    "main.15f3ff7f.css.map": "/react-portfolio/static/css/main.15f3ff7f.css.map",
+    "main.9570c98a.js.map": "/react-portfolio/static/js/main.9570c98a.js.map"
   },
   "entrypoints": [
-    "static/css/main.f81a276e.css",
-    "static/js/main.1b3d6a67.js"
+    "static/css/main.15f3ff7f.css",
+    "static/js/main.9570c98a.js"
   ]
 }
