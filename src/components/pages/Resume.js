@@ -1,5 +1,7 @@
 import React from "react";
 import '../styles/Resume.css';
+import resume from '../../assets/brad_coleman_resume.pdf'
+
 
 export default function Resume() {
   return (
@@ -11,7 +13,7 @@ export default function Resume() {
               <h2>Brad Coleman</h2>
             </div>
             <div className="col-4 ">
-            <a href="../assets/brad_coleman_resume.pdf" download className="badge badge-primary" id="resume">
+            <a href={resume} download className="badge badge-primary" id="resume">
             Download Resume
           </a>
             </div>

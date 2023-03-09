@@ -1,7 +1,12 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/Portfolio.css";
-import nbapic from '../../images/nba_project.jpg'
+import nbaPic from '../../images/nba_project.jpg'
+import digitalPic from '../../images/digital-marketing-meeting.jpg'
+import techPic from '../../images/tech_blog.jpg'
+import weatherPic from '../../images/weather.jpg'
+import pandaPic from '../../images/panda.jpg'
+import javaPic from '../../images/javascript_quiz.jpg'
 
 
 
@@ -10,34 +15,34 @@ export default function Projects() {
     {
       url: "https://bradcoleman60.github.io/GitYourGameOn/",
       github: "https://github.com/bradcoleman60/GitYourGameOn",
-      backgroundImage: `url(${nbapic})`,
+      backgroundImage: `url(${nbaPic})`,
     },
     {
       url: "https://bradcoleman60.github.io/marketing-refactor/",
       github: "https://github.com/bradcoleman60/marketing-refactor",
-      backgroundImage: "url('/images/digital-marketing-meeting.jpg')",
+      backgroundImage: `url(${digitalPic})`,
     },
     {
       url: "https://afternoon-badlands-25422.herokuapp.com/",
       github: "https://github.com/bradcoleman60/tech-blog",
-      backgroundImage: "url('/images/tech_blog.jpg')",
+      backgroundImage: `url(${techPic})`,
     },
     {
       url: "https://bradcoleman60.github.io/weather-dashboard/",
       github: "https://github.com/bradcoleman60/weather-dashboard",
-      backgroundImage: "url('/images/weather.jpg')",
+      backgroundImage: `url(${weatherPic})`,
     },
     {
       url: "https://pure-depths-43598.herokuapp.com/",
       github: "https://github.com/bradcoleman60/project-panda",
-      backgroundImage: "url('/images/panda.jpg')",
+      backgroundImage: `url(${pandaPic})`,
     },
     
     {
       url: "https://bradcoleman60.github.io/javascript-quiz/",
       github: "https://github.com/bradcoleman60/javascript-quiz",
-      // backgroundImage: "url('/images/javascript_quiz.jpg')",
-      backgroundImage: `{process.env.PUBLIC_URL + '/images/javascript_quiz.jpg'}`
+      
+      backgroundImage: `url(${javaPic})`
     },
   ];
 
@@ -49,25 +54,30 @@ export default function Projects() {
   the url, github link and the background image for each project and then 
   displays in a separate DIV */
   return (
-    <div className="container">
-      <div className="row">
+    <div className="container t-5">
+      <div className="row t-5">
         {projects.map((item, index) => (
           <div
             key={index}
-            className="col-md-4 col-lg-4 col-xl-4 m-4 position-relative"
+            className="col-md-4 col-lg-4 col-xl-4 m-5 position-relative"
+            title="Deployed Site"
             style={{
               backgroundImage: item.backgroundImage,
               height: "400px",
               width: "400px",
               backgroundSize: "cover",
               padding: "30px",
+              border: "solid black",
+              borderRadius: '10px',
+              cursor:'grab'
+              
             
             }}
             onClick={() => handleClick(item.url)}
           >
 
             <div
-              className="col p-2 "
+              className="gitHub col p-2 "
               id="github"
               style={{
                 position: "absolute",
