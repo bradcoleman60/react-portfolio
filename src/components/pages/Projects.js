@@ -54,8 +54,8 @@ export default function Projects() {
   the url, github link and the background image for each project and then 
   displays in a separate DIV */
   return (
-    <div className="container t-5">
-      <div className="row t-5">
+    <div className="container m-5">
+      <div className="row m-5">
         {projects.map((item, index) => (
           <div
             key={index}

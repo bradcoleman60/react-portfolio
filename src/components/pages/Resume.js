@@ -5,9 +5,9 @@ import resume from '../../assets/brad_coleman_resume.pdf'
 
 export default function Resume() {
   return (
-    <div className="container">
+    <div className="container m-5">
       <div className="row justified-content-center">
-        <div className="col-10">
+        <div className="col-10 m-5">
           <div className="row">
             <div className="col-8">
               <h2>Brad Coleman</h2>
