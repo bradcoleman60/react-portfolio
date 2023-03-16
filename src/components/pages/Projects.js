@@ -7,11 +7,17 @@ import techPic from '../../images/tech_blog.jpg'
 import weatherPic from '../../images/weather.jpg'
 import pandaPic from '../../images/panda.jpg'
 import javaPic from '../../images/javascript_quiz.jpg'
+import newBeePic from '../../images/newBee.jpg'
 
 
 
 export default function Projects() {
   const projects = [
+    {
+      url: "https://fierce-plains-86350.herokuapp.com/",
+      github: "https://github.com/bradcoleman60/NewBee-Financial",
+      backgroundImage: `url(${newBeePic})`,
+    },
     {
       url: "https://bradcoleman60.github.io/GitYourGameOn/",
       github: "https://github.com/bradcoleman60/GitYourGameOn",
